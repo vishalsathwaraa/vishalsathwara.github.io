@@ -330,7 +330,7 @@
                         audio: [{
                                 name: 'Heaven',
                                 artist: 'vishal sathwara',
-                                url: 'music/heaven.mp3',
+                                url: 'music/Heaven.mp3',
                                 cover: 'coverart/Heaven.png'
                             },
                             {
@@ -362,8 +362,8 @@
                             {
                                 name: 'Solitude',
                                 artist: 'vishal sathwara',
-                                url: 'music/solitude.mp3',
-                                cover: 'coverart/solitude.png',
+                                url: 'music/Solitude.mp3',
+                                cover: 'coverart/Solitude.png',
                             },
 
 
@@ -371,14 +371,14 @@
                                 name: 'Enslave',
                                 artist: 'vishal sathwara',
                                 url: 'music/Enslave.mp3',
-                                cover: 'coverart/enslave.png',
+                                cover: 'coverart/Enslave.png',
                             },
                                 
                             {
                                 name: 'Light Yagami Theme Remix',
                                 artist: 'vishal sathwara',
-                                url: 'music/lightstheme.mp3',
-                                cover: 'coverart/deathnote1.png',
+                                url: 'music/Lightstheme.mp3',
+                                cover: 'coverart/deathnote1.jpg',
                             },
                         ]
                     });

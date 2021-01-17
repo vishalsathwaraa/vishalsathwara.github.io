@@ -256,7 +256,7 @@
                         <div class="c">
                             <div class="feature-img ">
                                 <img src="img/radhakrishna.png" width="100%" alt="">
-                                <img src="img/play.png" class="play-btn" onclick="playVideo('video/radhakrishna.mp4')">
+                                <img src="img/play.png" class="play-btn" onclick="playVideo('video/Radhakrishna.mp4')">
                             </div>
                             <div class="feature-img">
                                 <img src="img/krishna.jpg" width="100%" alt="">
@@ -268,7 +268,7 @@
                             </div>
                             <div class="feature-img">
                                 <img src="img/beatmaking.png" width="100%" alt="">
-                                <img src="img/play.png" class="play-btn" onclick="playVideo('video/beatmaking.mp4')">
+                                <img src="img/play.png" class="play-btn" onclick="playVideo('video/Beatmaking.mp4')">
                             </div>
 
                         </div>

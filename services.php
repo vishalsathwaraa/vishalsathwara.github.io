@@ -8,6 +8,13 @@
         .text-base {
             font-size: 1.15rem;
         }
+          @media(max-width:991px) {
+            .remix {
+                margin-left: 0;
+            }
+            .text{
+                font-size: .78rem;
+            }
     </style>
 </head>
 

@@ -265,15 +265,15 @@ a {
                         <div class="c">
                             <div class="feature-img">
                                 <img src="img/couple.png" width="100%" alt="">
-                                <img src="img/play.png" class="play-btn" onclick="playVideo('video/couple.mp4')">
+                                <img src="img/play.png" class="play-btn" onclick="playVideo('video/Couple.mp4')">
                             </div>
                             <div class="feature-img">
                                 <img src="img/family.png" width="100%" alt="">
-                                <img src="img/play.png" class="play-btn" onclick="playVideo('video/family.mp4')">
+                                <img src="img/play.png" class="play-btn" onclick="playVideo('video/Family.mp4')">
                             </div>
                             <div class="feature-img">
                                 <img src="img/kaki.png" width="100%" alt="">
-                                <img src="img/play.png" class="play-btn" onclick="playVideo('video/kaki.mp4')">
+                                <img src="img/play.png" class="play-btn" onclick="playVideo('video/Kaki.mp4')">
                             </div>
                             <div class="feature-img">
                                 <img src="img/Boys.png" width="100%" alt="">

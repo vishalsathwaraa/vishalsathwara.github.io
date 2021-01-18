@@ -25,14 +25,14 @@
 
     <!-- Owl carousel css file  -->
 
-  <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/hover-min.css">
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <!-- Owl carousel JS file  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 
@@ -44,65 +44,66 @@
     <link rel="stylesheet" href="css/style.css">
 
     <style>
+        .ic p,
+        a {
+            text-align: center;
 
-.ic p,
-a {
-  text-align: center;
-  color: #eee;
-}
-        .ic{
-        position:relative;
+            color: #eee;
         }
 
-.ic  ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 1rem;
-  list-style-type: none;
-  font-size: 2rem;
-}
+        .ic {
+            position: relative
+        }
 
-.ic  ul li {
-  padding: 1rem;
-}
+        .ic ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 1rem;
+            list-style-type: none;
+            font-size: 2rem;
+        }
 
-.fab {
-  font-size: 4rem;
-}
+        .ic ul li {
+            padding: 1rem;
+        }
 
-/* transition for social icon hover animation */
-.fa-facebook,
-.fa-codepen,
-.fa-youtube,
-.fa-instagram,
-.fa-github,
-.fa-pinterest {
-  transition: 0.4s;
-  cursor: pointer;
-}
+        .fab {
+            font-size: 4rem;
+        }
 
-/* social media icons hover color */
-.fa-facebook:hover,
-.fa-facebook:focus {
-  color: #1877f2;
-  transform: scale(1.1);
-}
+        /* transition for social icon hover animation */
+        .fa-facebook,
+        .fa-codepen,
+        .fa-youtube,
+        .fa-instagram,
+        .fa-github,
+        .fa-pinterest {
+            transition: 0.4s;
+            cursor: pointer;
+        }
+
+        /* social media icons hover color */
+        .fa-facebook:hover,
+        .fa-facebook:focus {
+            color: #1877f2;
+            transform: scale(1.1);
+        }
 
 
 
-.fa-youtube:hover,
-.fa-youtube:focus {
-  color: #df2426;
-  transform: scale(1.1);
-}
+        .fa-youtube:hover,
+        .fa-youtube:focus {
+            color: #df2426;
+            transform: scale(1.1);
+        }
 
-.fa-instagram:hover,
-.fa-instagram:focus {
-  color: #bd22a2;
-  transform: scale(1.1);
-}
+        .fa-instagram:hover,
+        .fa-instagram:focus {
+            color: #bd22a2;
+            transform: scale(1.1);
+        }
 
 
 
@@ -180,8 +181,8 @@ a {
                 <div style="display: flex" class="logo-container">
                     <a style="background: none; margin-right: 10px" href="index.php" id="logo" class="cursor-link">
                         <img style="height:70px" src="images/projects/logo1.png" alt="logo">
-                   </a>
-                    <span style="align-self: center; color:#e4ba6eeb; letter-spacing: 2px;"> vsl</span> 
+                    </a>
+                    <span style="align-self: center; color:#e4ba6eeb; letter-spacing: 2px;"> vsl</span>
                 </div>
 
                 <div class="menu-burger">
@@ -258,9 +259,9 @@ a {
                 <div class="filtering text-center col-sm-12">
                     <div class="">
 
-                        <a style="color:orange" href="dance.php"><span  class="active">Dance</span></a>
-                       <a style="color:orange" href="wedding.php"><span>Wedding Choreography</span></a>
-                        <a style="color:orange" href="Beatmaking.php"><span >Beatmaking </span></a>
+                        <a style="color:orange" href="dance.php"><span class="active">Dance</span></a>
+                        <a style="color:orange" href="wedding.php"><span>Wedding Choreography</span></a>
+                        <a style="color:orange" href="Beatmaking.php"><span>Beatmaking </span></a>
                     </div>
                 </div>
                 <div class="clearfix"></div>
@@ -268,7 +269,7 @@ a {
 
                 <div class="gallery full-width">
 
-      <div class="items brand animate__animated animate__fadeIn animate__slow">
+                    <div class="items brand animate__animated animate__fadeIn animate__slow">
 
                         <div class="c">
                             <div class="feature-img">
@@ -290,10 +291,26 @@ a {
 
                         </div>
 
-
+                        <div class="ic">
+                            <p>Watch More Videos On Social Media.</p>
+                            <ul>
+                                <li><a href="https://www.facebook.com/vishal.sathwara.56/" target="_blank">
+                                        <i class="fab fa-facebook" tabindex="0"></i>
+                                    </a></li>
+                                <li><a href="https://www.instagram.com/vishalsathwaraa/" target="_blank">
+                                        <i class="fab fa-instagram" tabindex="0"></i>
+                                    </a></li>
+                                <li><a href="https://www.youtube.com/channel/UC1Bzw_84AwYJLUXpNkUpb9g">
+                                        <i class="fab fa-youtube" tabindex="0" target="_blank"></i>
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div style=" background:#f66d0cc2; width:100%; padding:13px; font-size:2rem" class="footer-copyright text-center py-3">© 2021
+                            <a href="index.php" style="color:white;">Vishal Sathwara</a>
+                        </div>
                     </div>
 
-                   
+
 
                     <div class="video-player animate__animated animate__fadeIn animate__slow" id="videoPlayer">
                         <video width="100%" controls autoplay id="myVideo">
@@ -308,25 +325,9 @@ a {
 
             </div>
         </div>
-        
+
     </section>
-<div class="ic">
-  <p>Watch More Videos On Social Media.</p>
- <ul>
-    <li><a href="https://www.facebook.com/vishal.sathwara.56/" target="_blank">
-        <i class="fab fa-facebook" tabindex="0"></i>
-      </a></li>
-    <li><a href="https://www.instagram.com/vishalsathwaraa/" target="_blank">
-        <i class="fab fa-instagram" tabindex="0"></i>
-      </a></li>
-    <li><a href="https://www.youtube.com/channel/UC1Bzw_84AwYJLUXpNkUpb9g">
-        <i class="fab fa-youtube" tabindex="0" target="_blank"></i>
-      </a></li>
-  </ul>
-</div>
-          <div   style="position:relative; background:#f66d0cc2; width:100%; padding:13px; font-size:2rem" class="footer-copyright text-center py-3">© 2021
-            <a href="index.php" style="color:white;">Vishal Sathwara</a>
-        </div> 
+
 
 
     <script>

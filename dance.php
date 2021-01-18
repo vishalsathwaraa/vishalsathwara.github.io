@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Vsl</title>
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
 
     <!-- Font Awesome cdn file -->
-
+    <link rel="icon" type="image/ico" href="favicon.ico" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="isojscss/style1.css">

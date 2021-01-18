@@ -104,7 +104,7 @@
                 <li><a class="hvr-shrink" href="about.php">About</a></li>
                 <li><a class="hvr-shrink" href="services.php#service">Services</a></li>
                 <li><a class="hvr-shrink" href="music.php">My Music</a></li>
-                <li><a class="hvr-shrink" href="isotope.php">Videos</a></li>
+                <li><a class="hvr-shrink" href="dance.php">Videos</a></li>
                 <li><a class="hvr-shrink" href="contact.php">Contact</a></li>
 
             </ul>
@@ -118,7 +118,7 @@
                                 <li><a href="about.php">About</a></li>
                                 <li><a href="services.php" #service>Services</a></li>
                                 <li><a href="music.php">My Music</a></li>
-                                <li><a href="isotope.php">Videos</a></li>
+                                <li><a href="dance.php">Videos</a></li>
                                 <li><a href="contact.php">Contact</a></li>
 
                             </ul>
@@ -483,7 +483,7 @@
                         <a style="color:white" href="music.php">My Music</a>
                     </p>
                     <p>
-                        <a style="color:white" href="isotope.php">Videos</a>
+                        <a style="color:white" href="dance.php">Videos</a>
                     </p>
 
 

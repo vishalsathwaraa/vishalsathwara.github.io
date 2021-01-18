@@ -44,6 +44,10 @@
     <link rel="stylesheet" href="css/style.css">
 
     <style>
+        
+        .c{
+            position:relative;
+        }
         @media(max-width:991px) {
             .works .filtering span {
                 margin: 0px 11px;
@@ -53,7 +57,8 @@
                 cursor: pointer;
                 font-weight: 500;
             }
-
+            
+          
             #menu-overlay .content-wrapper {
 
                 display: flex;

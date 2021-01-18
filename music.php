@@ -6,16 +6,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="agency, business, corporate, creative, freelancer, interior, minimal, modern, multipurpose, personal, portfolio, responsive, simple" />
-    <meta name="description" content="ajax portfolio one page" />
+    <meta name="description" />
     <meta name="author" content="stunningcss.in" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <!--PAGE TITLE-->
-    <title>Kurt - Ajax Portfolio Template</title>
+    <title>Vsl</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="icon" type="image/ico" href="images/favicon.ico" />
+    <link rel="icon" type="image/ico" href="favicon.ico" />
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/music.css">

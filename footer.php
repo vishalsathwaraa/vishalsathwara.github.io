@@ -74,7 +74,7 @@
         </div>
 
         <!-- Footer Links -->
-        <div data-aos="zoom-out" data-aos-duration="2000" class="container text-center text-md-left mt-5">
+        <div data-aos="flip-down" data-aos-duration="2000" class="container text-center text-md-left mt-5">
 
             <!-- Grid row -->
             <div class="row mt-3">

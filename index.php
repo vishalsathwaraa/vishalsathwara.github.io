@@ -109,7 +109,7 @@
                 <li><a class="hvr-shrink" href="about.php">About</a></li>
                 <li><a class="hvr-shrink" href="services.php#service">Services</a></li>
                 <li><a class="hvr-shrink" href="music.php">My Music</a></li>
-                <li><a class="hvr-shrink" href="isotope.php">Videos</a></li>
+                <li><a class="hvr-shrink" href="dance.php">Videos</a></li>
                 <li><a class="hvr-shrink" href="contact.php">Contact</a></li>
 
             </ul>
@@ -123,7 +123,7 @@
                                 <li><a class="menu-link cursor-link" href="about.php">About</a></li>
                                 <li><a class="menu-link cursor-link" href="services.php#service" #service>Services</a></li>
                                 <li><a class="menu-link cursor-link" href="music.php">My Music</a></li>
-                                <li><a class="menu-link cursor-link" href="isotope.php">Videos</a></li>
+                                <li><a class="menu-link cursor-link" href="dance.php">Videos</a></li>
                                 <li><a class="menu-link cursor-link" href="contact.php">Contact</a></li>
 
                             </ul>
@@ -185,7 +185,7 @@
                                 <div class="slide-content-inner">
                                     <div class="item-cat">Vishal Sathwara</div>
                                     <h2 class="item-title" data-splitting>DANCER.</h2>
-                                    <a href="isotope.php" data-type="page-transition" class="item-link link-underline cursor-link">Watch Videos</a>
+                                    <a href="dance.php" data-type="page-transition" class="item-link link-underline cursor-link">Watch Videos</a>
                                 </div>
                             </div>
                         </div>
@@ -200,7 +200,7 @@
                                 <div class="slide-content-inner">
                                     <div class="item-cat">Vishal Sathwara</div>
                                     <h2 class="item-title" data-splitting>Garba Lover.</h2>
-                                    <a href="isotope.php" data-type="page-transition" class="item-link link-underline cursor-link">Watch Videos</a>
+                                    <a href="dance.php" data-type="page-transition" class="item-link link-underline cursor-link">Watch Videos</a>
                                 </div>
                             </div>
                         </div>
@@ -281,7 +281,7 @@
                 <p class="mb-8 leading-relaxed abtinfo" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="600">Hey Everyone.<br> I'm an I.T(information technology) Engineer by profession but I'm so much passionate about Music And Dancing.<br>So as a Music producer , Dancer and Choreographer I would love to teach and share the knowledge with you all.</p>
                 <div class="flex justify-center">
                     <a href="music.php" style="cursor:pointer">  <button data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600"  class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text">My Music</button></a>
-                    <a href="isotope.php" style="cursor:pointer"> <button data-aos="fade-up" data-aos-duration="2000"   class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text">Watch Videos</button></a>
+                    <a href="dance.php" style="cursor:pointer"> <button data-aos="fade-up" data-aos-duration="2000"   class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text">Watch Videos</button></a>
                 </div>
             </div>
         </div>
@@ -360,7 +360,7 @@
                 </div>
 
             </div>
-            <a href="isotope.php"><button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Explore Video</button></a>
+            <a href="dance.php"><button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Explore Video</button></a>
         </div>
     </section>
     <!-- End Contact Us Section -->

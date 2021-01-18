@@ -105,7 +105,7 @@
             </header>
             <!--HEADER END-->
             <ul class="nav1" style="font-size:19px">
-                <li><a class="hvr-shrink" href="index.php#home">Home</a></li>
+                <li><a class="hvr-shrink" href="index.php">Home</a></li>
                 <li><a class="hvr-shrink" href="about.php">About</a></li>
                 <li><a class="hvr-shrink" href="services.php#service">Services</a></li>
                 <li><a class="hvr-shrink" href="music.php">My Music</a></li>
@@ -121,7 +121,7 @@
                             <ul>
                                 <li><a class="menu-link cursor-link" href="index.php">Home</a></li>
                                 <li><a class="menu-link cursor-link" href="about.php">About</a></li>
-                                <li><a class="menu-link cursor-link" href="services.php#service" #service>Services</a></li>
+                                <li><a class="menu-link cursor-link" href="services.php#service">Services</a></li>
                                 <li><a class="menu-link cursor-link" href="music.php">My Music</a></li>
                                 <li><a class="menu-link cursor-link" href="dance.php">Videos</a></li>
                                 <li><a class="menu-link cursor-link" href="contact.php">Contact</a></li>
@@ -185,7 +185,7 @@
                                 <div class="slide-content-inner">
                                     <div class="item-cat">Vishal Sathwara</div>
                                     <h2 class="item-title" data-splitting>DANCER.</h2>
-                                    <a href="dance.php" data-type="page-transition" class="item-link link-underline cursor-link">Watch Videos</a>
+                                    <a href="dance.php" class="item-link link-underline cursor-link">Watch Videos</a>
                                 </div>
                             </div>
                         </div>
@@ -200,7 +200,7 @@
                                 <div class="slide-content-inner">
                                     <div class="item-cat">Vishal Sathwara</div>
                                     <h2 class="item-title" data-splitting>Garba Lover.</h2>
-                                    <a href="dance.php" data-type="page-transition" class="item-link link-underline cursor-link">Watch Videos</a>
+                                    <a href="dance.php"  class="item-link link-underline cursor-link">Watch Videos</a>
                                 </div>
                             </div>
                         </div>

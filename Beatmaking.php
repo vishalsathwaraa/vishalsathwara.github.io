@@ -50,7 +50,7 @@ a {
   color: #eee;
 }
  .ic{
-        poisition:relative;
+        position:relative;
         }
 .ic  ul {
   display: flex;

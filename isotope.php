@@ -194,7 +194,7 @@
     </div>
     <br><br><br><br>
     <section class="works">
-        <div class="container animate__animated animate__fadeInDown animate__slow" style="margin-top:50px">
+        <div class="container animate__animated animate__fadeIn animate__slow" style="margin-top:50px">
             <div class="row no-gutters">
                 <div class="filtering text-center col-sm-12">
                     <div class="filter">

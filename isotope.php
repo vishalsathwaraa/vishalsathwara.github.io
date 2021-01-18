@@ -45,7 +45,7 @@
 
     <style>
         
-        .c{
+        .c,.items{
             position:relative;
         }
         @media(max-width:991px) {

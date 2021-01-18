@@ -295,7 +295,7 @@
         <div class="container px-5 py-24 mx-auto">
             <div data-aos="zoom-out-up" data-aos-duration="3000" class="text-center mb-20">
                 <h1 class="sm:text-3xl text-2xl font-medium title-font text-yellow-600 mb-4">Services</h1>
-                <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">New Music Production And Dance Batch will Start From this March.So make sure to register yourself if you are intrested and expand your skills.</p>
+                <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">New Music Production And Dance batch will start from this March.So make sure to register yourself if you are intrested and expand your skills.</p>
                 <div class="flex mt-6 justify-center">
                     <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
                 </div>
@@ -354,7 +354,7 @@
                     </div>
                     <div class="flex-grow">
                         <h2 class="text-yellow-600 text-lg title-font font-medium mb-3">Song Remix</h2>
-                        <p class="leading-relaxed text-base">Remix any type of song very quickly and easily with flstudio.Also learn various sampling techniques and chopping of vocals.</p>
+                        <p class="leading-relaxed text-base">Remix any type of song very quickly and easily with Flstudio.Also learn various sampling techniques and vocal chopping.</p>
 
                     </div>
                 </div>

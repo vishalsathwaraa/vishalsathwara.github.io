@@ -50,6 +50,9 @@ a {
   text-align: center;
   color: #eee;
 }
+        .ic{
+        poisition:relative;
+        }
 
 .ic  ul {
   display: flex;

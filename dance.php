@@ -305,7 +305,7 @@
                                     </a></li>
                             </ul>
                         </div>
-                        <div style=" background:#f66d0cc2; width:100%; padding:13px; font-size:2rem" class="footer-copyright text-center py-3">© 2021
+                        <div style=" background:#2d2a2aa6; width:100%; padding:13px; font-size:2rem" class="footer-copyright text-center py-3">© 2021
                             <a href="index.php" style="color:white;">Vishal Sathwara</a>
                         </div>
                     </div>

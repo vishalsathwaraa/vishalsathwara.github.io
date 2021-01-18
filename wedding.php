@@ -49,9 +49,7 @@ a {
   text-align: center;
   color: #eee;
 }
- .ic{
-        position:relative;
-        }
+        .ic{position: relative}
 .ic  ul {
   display: flex;
   align-items: center;
@@ -283,6 +281,25 @@ a {
                             </div>
 
                         </div>
+                        <div class="ic">
+  <p>Watch More Videos On Social Media.</p>
+ <ul>
+    <li><a href="https://www.facebook.com/vishal.sathwara.56/" target="_blank">
+        <i class="fab fa-facebook" tabindex="0"></i>
+      </a></li>
+    <li><a href="https://www.instagram.com/vishalsathwaraa/" target="_blank">
+        <i class="fab fa-instagram" tabindex="0"></i>
+      </a></li>
+    <li><a href="https://www.youtube.com/channel/UC1Bzw_84AwYJLUXpNkUpb9g">
+        <i class="fab fa-youtube" tabindex="0" target="_blank"></i>
+      </a></li>
+  </ul>
+</div>
+                   
+          <div  style=" background:#2d2a2aa6; width:100%; padding:13px; font-size:2rem" class="footer-copyright text-center py-3">© 2021
+            <a href="index.php" style="color:white;">Vishal Sathwara</a>
+        </div> 
+
                     </div>
 
                    
@@ -297,20 +314,7 @@ a {
                 </div>
 
 
-<div class="ic">
-  <p>Watch More Videos On Social Media.</p>
- <ul>
-    <li><a href="https://www.facebook.com/vishal.sathwara.56/" target="_blank">
-        <i class="fab fa-facebook" tabindex="0"></i>
-      </a></li>
-    <li><a href="https://www.instagram.com/vishalsathwaraa/" target="_blank">
-        <i class="fab fa-instagram" tabindex="0"></i>
-      </a></li>
-    <li><a href="https://www.youtube.com/channel/UC1Bzw_84AwYJLUXpNkUpb9g">
-        <i class="fab fa-youtube" tabindex="0" target="_blank"></i>
-      </a></li>
-  </ul>
-</div>
+
 
 
             </div>
@@ -318,10 +322,6 @@ a {
     </section>
 
 
-
-          <div  style=" background:#f66d0cc2; width:100%; padding:13px; font-size:2rem" class="footer-copyright text-center py-3">© 2021
-            <a href="index.php" style="color:white;">Vishal Sathwara</a>
-        </div> 
 
 
     <script>

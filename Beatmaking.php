@@ -44,6 +44,64 @@
     <link rel="stylesheet" href="css/style.css">
 
     <style>
+        .ic p,
+a {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #eee;
+}
+
+.ic  ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+  list-style-type: none;
+  font-size: 2rem;
+}
+
+.ic  ul li {
+  padding: 1rem;
+}
+
+.fab {
+  font-size: 4rem;
+}
+
+/* transition for social icon hover animation */
+.fa-facebook,
+.fa-codepen,
+.fa-youtube,
+.fa-instagram,
+.fa-github,
+.fa-pinterest {
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+/* social media icons hover color */
+.fa-facebook:hover,
+.fa-facebook:focus {
+  color: #1877f2;
+  transform: scale(1.1);
+}
+
+
+
+.fa-youtube:hover,
+.fa-youtube:focus {
+  color: #df2426;
+  transform: scale(1.1);
+}
+
+.fa-instagram:hover,
+.fa-instagram:focus {
+  color: #bd22a2;
+  transform: scale(1.1);
+}
+
+
         @media(max-width:991px) {
             .works .filtering span {
                 margin: 0px 11px;
@@ -72,35 +130,7 @@
             }
         }
 
-        .txt h2 {
-            font-weight: 300;
-        }
-
-        .txt {
-            display: flex;
-            justify-content: center;
-            height: auto;
-            width: 100%;
-            height: 200px;
-            position: relative;
-        }
-
-        .txt ul {
-            position: absolute;
-        }
-
-        .txt img {
-            object-fit: contain;
-            width: 60%;
-            position: relative;
-            align-items: center;
-            padding: 15px;
-            top: 80px;
-            left: 50%;
-            transform: translate(-50%, -50%);
-
-        }
-
+   
     </style>
 
 </head>
@@ -210,7 +240,7 @@
                         <div class="c">
                             <div class="feature-img ">
                                 <img src="img/radhakrishna.png" width="100%" alt="">
-                                <img src="img/play.png" class="play-btn" onclick="playVideo('video/radhakrishna.mp4')">
+                                <img src="img/play.png" class="play-btn" onclick="playVideo('video/Radhakrishna.mp4')">
                             </div>
                             <div class="feature-img">
                                 <img src="img/krishna.jpg" width="100%" alt="">
@@ -222,18 +252,12 @@
                             </div>
                             <div class="feature-img">
                                 <img src="img/beatmaking.png" width="100%" alt="">
-                                <img src="img/play.png" class="play-btn" onclick="playVideo('video/beatmaking.mp4')">
+                                <img src="img/play.png" class="play-btn" onclick="playVideo('video/Beatmaking.mp4')">
                             </div>
 
                         </div>
 
-                        <div class="txt">
-                            <h2>watch more videos on instagram</h2>
-                            <ul>
-                                <li><a class="hvr-shrink" href="https://instagram.com/vishalsathwaraa" target="_blank"><img src="img/vishalsathwaraa.png" alt=""></a></li>
-                                <li><a class="hvr-shrink" href="https://instagram.com/vsl.on.the.beat" target="_blank"><img src="img/vslonthebeat.png" alt=""></a></li>
-                            </ul>
-                        </div>
+                    
 
                     </div>
 
@@ -249,7 +273,20 @@
                 </div>
 
 
-
+<div class="ic">
+  <p>Watch More Videos On Social Media.</p>
+  <ul>
+    <li><a href="https://www.facebook.com/vishal.sathwara.56/" target="_blank">
+        <i class="fab fa-facebook" tabindex="0"></i>
+      </a></li>
+    <li><a href="https://www.instagram.com/vishalsathwaraa/" target="_blank">
+        <i class="fab fa-instagram" tabindex="0"></i>
+      </a></li>
+    <li><a href="https://www.youtube.com/channel/UC1Bzw_84AwYJLUXpNkUpb9g">
+        <i class="fab fa-youtube" tabindex="0" target="_blank"></i>
+      </a></li>
+  </ul>
+</div>
 
 
             </div>
@@ -257,6 +294,10 @@
     </section>
 
 
+
+          <div  style=" background:#f66d0cc2; width:100%; padding:13px; font-size:2rem" class="footer-copyright text-center py-3">© 2021
+            <a href="index.php" style="color:white;">Vishal Sathwara</a>
+        </div> 
 
 
     <script>

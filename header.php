@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <meta name="keywords" content="agency, business, corporate, creative, freelancer, interior, minimal, modern, multipurpose, personal, portfolio, responsive, simple" />
-    <meta name="description" content="ajax portfolio one page" />
+    <meta name="description" />
     <meta name="author" content="stunningcss.in" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <!--PAGE TITLE-->
-    <title>Kurt - Ajax Portfolio Template</title>
+    <title>Vsl</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="icon" type="image/ico" href="images/favicon.ico" />
+    <link rel="icon" type="image/ico" href="favicon.ico" />
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/hover-min.css">

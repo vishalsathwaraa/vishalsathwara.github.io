@@ -305,6 +305,11 @@ a {
                 </div>
 
 
+
+            </div>
+        </div>
+        
+    </section>
 <div class="ic">
   <p>Watch More Videos On Social Media.</p>
  <ul>
@@ -319,12 +324,7 @@ a {
       </a></li>
   </ul>
 </div>
-            </div>
-        </div>
-        
-    </section>
-
-          <div  style=" background:#f66d0cc2; width:100%; padding:13px; font-size:2rem" class="footer-copyright text-center py-3">© 2021
+          <div   style="position:relative; background:#f66d0cc2; width:100%; padding:13px; font-size:2rem" class="footer-copyright text-center py-3">© 2021
             <a href="index.php" style="color:white;">Vishal Sathwara</a>
         </div> 
 

@@ -5,16 +5,21 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <style>
+         .remix {
+            margin-left: 194px;
+        }
+
         .text-base {
             font-size: 1.15rem;
         }
-          @media(max-width:991px) {
+         @media(max-width:991px) {
             .remix {
                 margin-left: 0;
             }
             .text{
                 font-size: .78rem;
             }
+        }
     </style>
 </head>
 
@@ -26,7 +31,7 @@
         <div class="container px-5 py-24 mx-auto">
             <div data-aos="zoom-out-up" data-aos-duration="3000" class="text-center mb-20">
                 <h1 class="sm:text-3xl text-2xl font-medium title-font text-yellow-600 mb-4">Services</h1>
-                <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">New Music Production And Dance Batch will start from this March.So make sure to register yourself if you are interested and expand your skills.</p>
+                <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">New Music Production And Dance Batch will Start from this March.So make sure to register yourself if you are intrested and expand your skills.</p>
                 <div class="flex mt-6 justify-center">
                     <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
                 </div>
@@ -66,7 +71,7 @@
 
                 </div>
 
-                <div style="    margin-left: 194px;" class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                <div class="remix p-4 md:w-1/3 flex flex-col text-center items-center">
                     <div class="w-30 h-30 inline-flex items-center justify-center text-white-500 mb-5 flex-shrink-0">
 
                         <img data-aos="fade-right" data-aos-duration="2000" data-aos-delay="300" style="object-fit: contain;   width:200px; height: 300px" src="images/remix.png" alt="">
@@ -85,13 +90,13 @@
                     </div>
                     <div class="flex-grow">
                         <h2 class="text-yellow-600 text-lg title-font font-medium mb-3">Song Remix</h2>
-                        <p class="leading-relaxed text-base">Remix any type of song very quickly and easily with FlStudio.Also learn various sampling techniques and vocal chopping.</p>
+                        <p class="leading-relaxed text-base">Remix any type of song very quickly and easily with flstudio.Also learn various sampling techniques and chopping of vocals.</p>
                        
                     </div>
                 </div>
            
             </div>
-            <a href="isotope.php"><button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Explore Video</button></a>
+            <a href="dance.php"><button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Explore Video</button></a>
         </div>
     </section>
     <?php include'footer.php'; ?>

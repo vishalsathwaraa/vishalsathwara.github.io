@@ -293,7 +293,7 @@
     <section class="text-gray-600 body-font" id="service">
 
         <div class="container px-5 py-24 mx-auto">
-            <div data-aos="zoom-out-up" data-aos-duration="3000" class="text-center mb-20">
+            <div data-aos="fade-in" data-aos-duration="2500" class="text-center mb-20">
                 <h1 class="sm:text-3xl text-2xl font-medium title-font text-yellow-600 mb-4">Services</h1>
                 <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">New Music Production And Dance batch will start from this March.So make sure to register yourself if you are intrested and expand your skills.</p>
                 <div class="flex mt-6 justify-center">

@@ -47,10 +47,11 @@
         .ic p,
 a {
   text-align: center;
-  margin-bottom: 2rem;
   color: #eee;
 }
-
+ .ic{
+        position:relative;
+        }
 .ic  ul {
   display: flex;
   align-items: center;

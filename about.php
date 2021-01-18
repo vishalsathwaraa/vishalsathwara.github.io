@@ -36,7 +36,7 @@
                 <p class="mb-8  abtinfo" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="600">Hey Everyone.<br> I'm an I.T(information technology) Engineer by profession but I'm so much passionate about Music And Dancing.<br>So as a Music producer , Dancer and Choreographer I would love to teach and share the knowledge with you all.</p>
                 <div class="flex justify-center">
                    <a href="music.php" style="cursor:pointer"><button data-aos="fade-right" data-aos-duration="1000" class="inline-flex text-black  border-0 py-2 px-6 focus:outline-none rounded text hvr-shutter-in-horizontal">My Music</button></a> 
-                    <a href="isotope.php" style="cursor:pointer">  <button data-aos="fade-up" data-aos-duration="1000" class="ml-4 inline-flex text-black border-0 py-2 px-6 focus:outline-none  rounded text hvr-shutter-in-horizontal">Watch Videos</button></a>
+                    <a href="dance.php" style="cursor:pointer">  <button data-aos="fade-up" data-aos-duration="1000" class="ml-4 inline-flex text-black border-0 py-2 px-6 focus:outline-none  rounded text hvr-shutter-in-horizontal">Watch Videos</button></a>
                 </div>
             </div>
         </div>

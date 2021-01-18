@@ -44,7 +44,7 @@
             line-height: 2.2;
         }
 .text-base {
-            font-size: 1.15rem;
+            font-size: 1.04rem;
            
         }
         @media(max-width:991px) {

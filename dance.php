@@ -48,7 +48,6 @@
 .ic p,
 a {
   text-align: center;
-  margin-bottom: 2rem;
   color: #eee;
 }
 

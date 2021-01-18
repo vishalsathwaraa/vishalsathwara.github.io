@@ -189,7 +189,7 @@
     </div>
     <br><br><br><br>
     <section class="works">
-        <div class="container animate__animated animate__fadeInDown animate__slow" style="margin-top:50px">
+        <div class="container " style="margin-top:50px">
             <div class="row no-gutters">
                 <div class="filtering text-center col-sm-12">
                     <div class="">
@@ -197,7 +197,7 @@
 
                         <a style="color:orange" href="dance.php"><span>Dance</span></a>
                         <a style="color:orange" href="wedding.php"><span>Wedding Choreography</span></a>
-                        <a style="color:orange" href="Beatmaking.php"><span class="active">Beatmaking and Piano</span></a>
+                        <a style="color:orange" href="Beatmaking.php"><span class="active">Beatmaking</span></a>
                     </div>
                 </div>
                 <div class="clearfix"></div>
@@ -206,7 +206,7 @@
                 <div class="gallery full-width">
 
 
-                    <div class="items graphic">
+                    <div class="items graphic animate__animated animate__fadeIn animate__slow">
                         <div class="c">
                             <div class="feature-img ">
                                 <img src="img/radhakrishna.png" width="100%" alt="">

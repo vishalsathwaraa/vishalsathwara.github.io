@@ -189,14 +189,14 @@
     </div>
     <br><br><br><br>
     <section class="works">
-        <div class="container animate__animated animate__fadeInDown animate__slow" style="margin-top:50px">
+        <div class="container" style="margin-top:50px">
             <div class="row no-gutters">
                 <div class="filtering text-center col-sm-12">
                     <div class="">
 
                         <a style="color:orange" href="dance.php"><span >Dance</span></a>
                        <a style="color:orange"href="wedding.php"><span  class="active">Wedding Choreography</span></a>
-                        <a style="color:orange"href="Beatmaking.php"><span >Beatmaking and Piano</span></a>
+                        <a style="color:orange"href="Beatmaking.php"><span >Beatmaking </span></a>
                     </div>
                 </div>
                 <div class="clearfix"></div>
@@ -204,7 +204,7 @@
 
                 <div class="gallery full-width">
 
-     <div class="items web" id="dance">
+     <div class="items web  animate__animated animate__fadeIn animate__slow" id="dance">
                         <div class="c">
                             <div class="feature-img">
                                 <img src="img/couple.png" width="100%" alt="">

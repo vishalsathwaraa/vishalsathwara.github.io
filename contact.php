@@ -114,7 +114,7 @@ body, button, input {
   display: flex;
   flex-direction: column;
   position: relative;
-  color: #ec27b8;
+  color: #f08704;
   font-size: 26px;
 }
 
@@ -126,7 +126,7 @@ body, button, input {
   bottom: -10px;
   width: 25px;
   height: 4px;
-  background: #ec27b8;
+  background: #f08704;
 }
 
 .app-contact {
@@ -172,7 +172,7 @@ body, button, input {
 .app-form-button {
   background: none;
   border: none;
-  color: #ec27b8;
+  color: #f08704;
   font-size: 14px;
   cursor: pointer;
   outline: none;

@@ -20,12 +20,14 @@
     <link rel="stylesheet" href="css/hover-min.css">
     <!--Plugins Css-->
     <link rel="stylesheet" href="css/aos.css">
-    <script src="js/aos.js"></script>
+  
 
     <link rel="stylesheet" href="css/plugins.css">
     <!--Main Style Css-->
     <link rel="stylesheet" href="css/style.css">
-    <!--Modernizr Js-->
+   
+    <script src="js/aos.js"></script>
+     <!--Modernizr Js-->
     <script src="js/modernizr.js"></script>
 
 
@@ -372,6 +374,7 @@
         AOS.init();
 
     </script>
+  
     <!--Jquery JS-->
     <script src="js/jquery.min.js"></script>
     <!--Plugins JS-->

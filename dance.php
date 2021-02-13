@@ -11,7 +11,7 @@
     <link rel="icon" type="image/ico" href="favicon.ico" />
 
     <link rel="stylesheet" href="isojscss/style1.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/modal-video.min.css">
     <!--Responsive tabs-->
     <link rel="stylesheet" href="isojscss/responsive-tabs.css">
 
@@ -20,9 +20,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.css" rel="stylesheet" />
-
 
     <!-- Owl carousel css file  -->
 
@@ -30,8 +27,6 @@
 
     <!-- jQuery library -->
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <!-- Owl carousel JS file  -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -44,141 +39,142 @@
     <link rel="stylesheet" href="css/style.css">
 
     <style>
-    .row.no-gutters [class*=col-] {
-        padding: 0;
-        margin-top: 21px;
-        margin-right: -0.2px;
-    }
+        .row.no-gutters [class*=col-] {
+            padding: 0;
+            margin-top: 21px;
+            margin-right: -0.2px;
+        }
 
-    .play-btn {
-        width: 10rem;
-    }
+        .play-btn {
+            width: 10rem;
+        }
 
-    .ic p,
-    a {
-        text-align: center;
+        .ic p,
+        a {
+            text-align: center;
+            color: #eee;
+            text-decoration: none;
+        }
 
-        color: #eee;
-    }
+        .ic {
+            position: relative;
+        }
 
-    .ic {
-        position: relative;
-    }
+        .ic ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 1rem;
+            list-style-type: none;
+            font-size: 2rem;
+        }
 
-    .ic ul {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin: 1rem;
-        list-style-type: none;
-        font-size: 2rem;
-    }
+        .ic ul li {
+            padding: 1rem;
+        }
 
-    .ic ul li {
-        padding: 1rem;
-    }
+        .modal-footer .fab {
+            font-size: 1rem;
+        }
 
-    .modal-footer .fab {
-        font-size: 1rem;
-    }
+        .fab {
+            font-size: 2rem;
+        }
 
-    .fab {
-        font-size: 2rem;
-    }
-
-    /* transition for social icon hover animation */
-    .fa-facebook,
-    .fa-codepen,
-    .fa-youtube,
-    .fa-instagram,
-    .fa-github,
-    .fa-pinterest {
-        transition: 0.4s;
-        cursor: pointer;
-    }
-
-    /* social media icons hover color */
-    .fa-facebook:hover,
-    .fa-facebook:focus {
-        color: #1877f2;
-        transform: scale(1.1);
-    }
-
-
-
-    .fa-youtube:hover,
-    .fa-youtube:focus {
-        color: #df2426;
-        transform: scale(1.1);
-    }
-
-    .fa-instagram:hover,
-    .fa-instagram:focus {
-        color: #bd22a2;
-        transform: scale(1.1);
-    }
-
-
-
-
-
-    @media(max-width:991px) {
-        .works .filtering span {
-            margin: 0px 11px;
-            padding: 8px 22px;
-            font-size: 25px;
-            line-height: 3;
+        /* transition for social icon hover animation */
+        .fa-facebook,
+        .fa-codepen,
+        .fa-youtube,
+        .fa-instagram,
+        .fa-github,
+        .fa-pinterest {
+            transition: 0.4s;
             cursor: pointer;
-            font-weight: 500;
         }
 
-        #menu-overlay .content-wrapper {
+        /* social media icons hover color */
+        .fa-facebook:hover,
+        .fa-facebook:focus {
+            color: #1877f2;
+            transform: scale(1.1);
+        }
 
+
+
+        .fa-youtube:hover,
+        .fa-youtube:focus {
+            color: #df2426;
+            transform: scale(1.1);
+        }
+
+        .fa-instagram:hover,
+        .fa-instagram:focus {
+            color: #bd22a2;
+            transform: scale(1.1);
+        }
+
+
+
+
+
+        @media(max-width:991px) {
+            .works .filtering span {
+                margin: 0px 11px;
+                padding: 8px 22px;
+                font-size: 25px;
+                line-height: 3;
+                cursor: pointer;
+                font-weight: 500;
+            }
+
+            #menu-overlay .content-wrapper {
+
+                display: flex;
+                justify-content: center;
+
+            }
+
+            .company-info {
+                display: none;
+            }
+
+            #menu-overlay .primary-nav li a {
+                padding: 35px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        .txt h2 {
+            font-weight: 300;
+        }
+
+        .txt {
             display: flex;
             justify-content: center;
+            height: auto;
+            width: 100%;
+            height: 200px;
+            position: relative;
+        }
+
+        .txt ul {
+            position: absolute;
+        }
+
+        .txt img {
+            object-fit: contain;
+            width: 60%;
+            position: relative;
+            align-items: center;
+            padding: 15px;
+            top: 80px;
+            left: 50%;
+            transform: translate(-50%, -50%);
 
         }
 
-        .company-info {
-            display: none;
-        }
-
-        #menu-overlay .primary-nav li a {
-            padding: 35px;
-            display: flex;
-            justify-content: center;
-        }
-    }
-
-    .txt h2 {
-        font-weight: 300;
-    }
-
-    .txt {
-        display: flex;
-        justify-content: center;
-        height: auto;
-        width: 100%;
-        height: 200px;
-        position: relative;
-    }
-
-    .txt ul {
-        position: absolute;
-    }
-
-    .txt img {
-        object-fit: contain;
-        width: 60%;
-        position: relative;
-        align-items: center;
-        padding: 15px;
-        top: 80px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
-    }
     </style>
 
 </head>
@@ -235,8 +231,7 @@
                             </ul>
                         </nav>
                         <div class="company-info">
-                            <li> <a href="mailto:vishalsathwara999@gmail.com"
-                                    class="info-email  link-underline cursor-link">vishalsathwara999@gmail.com</a></li>
+                            <li> <a href="mailto:vishalsathwara999@gmail.com" class="info-email  link-underline cursor-link">vishalsathwara999@gmail.com</a></li>
                             <br>
                             <li>
                                 <a href="tel:(+91)9898571874" class="info-tel link-underline cursor-link">(+91)
@@ -248,16 +243,11 @@
 
                             </div>
                             <ul class="sm-links">
-                                <li><a href="https://instagram.com/vishalsathwaraa" class="cursor-link"><i
-                                            class="fab fa-instagram"></i></a></li>
-                                <li><a href="https://www.facebook.com/vishal.sathwara.56" class="cursor-link"><i
-                                            class="fab fa-facebook"></i></a></li>
-                                <li><a href="https://www.youtube.com/channel/UC1Bzw_84AwYJLUXpNkUpb9g"
-                                        class="cursor-link"><i class="fab fa-youtube"></i></a></li>
-                                <li><a href="https://api.whatsapp.com/send?phone=919898571874&text=Hi%20There!"
-                                        class="cursor-link"><i class="fab fa-whatsapp"></i></a></li>
-                                <li><a href="https://telegram.me/vsl_x99?start=hello" class="cursor-link"><i
-                                            class="fab fa-telegram"></i></a></li>
+                                <li><a href="https://instagram.com/vishalsathwaraa" class="cursor-link"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/vishal.sathwara.56" class="cursor-link"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UC1Bzw_84AwYJLUXpNkUpb9g" class="cursor-link"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="https://api.whatsapp.com/send?phone=919898571874&text=Hi%20There!" class="cursor-link"><i class="fab fa-whatsapp"></i></a></li>
+                                <li><a href="https://telegram.me/vsl_x99?start=hello" class="cursor-link"><i class="fab fa-telegram"></i></a></li>
 
                             </ul>
                         </div>
@@ -291,23 +281,19 @@
                                 <div class="c">
                                     <div class="feature-img">
                                         <img src="img/Kya.png" width="100%" alt="">
-                                        <img src="img/play.png" class="play-btn" data-toggle="modal"
-                                            data-target="#modalkya">
+                                        <img src="img/play.png" class="play-btn js-video-button" data-video-id='F4cw0Cl_g-Y'>
                                     </div>
                                     <div class="feature-img">
                                         <img src="img/GarbaFusion.png" width="100%" alt="">
-                                        <img src="img/play.png" class="play-btn" data-toggle="modal"
-                                            data-target="#modalgarba">
+                                        <img src="img/play.png" class="play-btn js-video-button" data-video-id='c6UqVwZfNwM'>
                                     </div>
                                     <div class="feature-img">
                                         <img src="img/Tod.png" width="100%" alt="">
-                                        <img src="img/play.png" class="play-btn" data-toggle="modal"
-                                            data-target="#modalTod">
+                                        <img src="img/play.png" class="play-btn js-video-button" data-video-id='PNjXY6uQSKg'>
                                     </div>
                                     <div class="feature-img">
                                         <img src="img/Mirchi.png" width="100%" alt="">
-                                        <img src="img/play.png" class="play-btn"  data-toggle="modal"
-                                            data-target="#modalMirchi">
+                                        <img src="img/play.png" class="play-btn js-video-button" data-video-id='1ESrxmN7J0U'>
                                     </div>
 
                                 </div>
@@ -326,8 +312,7 @@
                                             </a></li>
                                     </ul>
                                 </div>
-                                <div style=" background:#2d2a2aa6; width:100%; padding:13px; font-size:1rem"
-                                    class="footer-copyright text-center py-3">© 2021
+                                <div style=" background:#2d2a2aa6; width:100%; padding:13px; font-size:1rem" class="footer-copyright text-center py-3">© 2021
                                     <a href="index.php" style="color:white;">Vishal Sathwara</a>
                                 </div>
                             </div>
@@ -336,259 +321,32 @@
                         </div>
 
 
-
-                        <!--Modal: modalKya-->
-                        <div class="modal fade" id="modalkya" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog modal-lg" role="document">
-
-                                <!--Content-->
-                                <div class="modal-content">
-
-                                    <!--Body-->
-                                    <div class="modal-body mb-0 p-0">
-
-                                        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                            <iframe class="embed-responsive-item"
-                                                src="https://www.youtube.com/embed/F4cw0Cl_g-Y"
-                                                allowfullscreen></iframe>
-                                        </div>
-
-                                    </div>
-
-                                    <!--Footer-->
-                                    <div style="border: none"
-                                        class="modal-footer bg-dark  justify-content-center flex-column flex-md-row">
-
-                                        <div>
-                                            <a href="https://www.youtube.com/channel/UC1Bzw_84AwYJLUXpNkUpb9g"
-                                                type="button" class="btn-floating btn-sm btn-fb">
-                                                <i class="fab fa-youtube"></i>
-                                            </a>
-                                            <!--Twitter-->
-                                            <a href="https://www.instagram.com/vishalsathwaraa/" type="button"
-                                                class="btn-floating btn-sm btn-tw">
-                                                <i class="fab fa-instagram"></i>
-                                            </a>
-                                            <!--Google +-->
-                                            <a href="https://www.facebook.com/vishal.sathwara.56/" type="button"
-                                                class="btn-floating btn-sm btn-gplus">
-                                                <i class="fab fa-facebook"></i>
-                                            </a>
-
-
-                                        </div>
-                                        <button type="button" class="btn btn-white rounded-pill btn-md ml-4"
-                                            data-dismiss="modal">Close</button>
-
-
-                                    </div>
-
-                                </div>
-                                <!--/.Content-->
-
-                            </div>
-
-                        </div>
-
-
-
-
-
-                        <!--Modal: modalTod-->
-                        <div class="modal fade" id="modalTod" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog modal-lg" role="document">
-
-                                <!--Content-->
-                                <div class="modal-content">
-
-                                    <!--Body-->
-                                    <div class="modal-body mb-0 p-0">
-
-                                        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                            <iframe class="embed-responsive-item"
-                                                src="https://www.youtube.com/embed/PNjXY6uQSKg"
-                                                allowfullscreen></iframe>
-                                        </div>
-
-                                    </div>
-
-                                    <!--Footer-->
-                                    <div style="border: none"
-                                        class="modal-footer bg-dark  justify-content-center flex-column flex-md-row">
-
-                                        <div>
-                                            <a href="https://www.youtube.com/channel/UC1Bzw_84AwYJLUXpNkUpb9g"
-                                                type="button" class="btn-floating btn-sm btn-fb">
-                                                <i class="fab fa-youtube"></i>
-                                            </a>
-                                            <!--Twitter-->
-                                            <a href="https://www.instagram.com/vishalsathwaraa/" type="button"
-                                                class="btn-floating btn-sm btn-tw">
-                                                <i class="fab fa-instagram"></i>
-                                            </a>
-                                            <!--Google +-->
-                                            <a href="https://www.facebook.com/vishal.sathwara.56/" type="button"
-                                                class="btn-floating btn-sm btn-gplus">
-                                                <i class="fab fa-facebook"></i>
-                                            </a>
-
-
-                                        </div>
-                                        <button type="button" class="btn btn-white rounded-pill btn-md ml-4"
-                                            data-dismiss="modal">Close</button>
-
-
-                                    </div>
-
-                                </div>
-                                <!--/.Content-->
-
-                            </div>
-
-                        </div>
-
-
-
-                        <!--Modal: modalMirchi-->
-                        <div class="modal fade" id="modalMirchi" tabindex="-1" role="dialog"
-                            aria-labelledby="myModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg" role="document">
-
-                                <!--Content-->
-                                <div class="modal-content">
-
-                                    <!--Body-->
-                                    <div class="modal-body mb-0 p-0">
-
-                                        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                            <iframe class="embed-responsive-item"
-                                                src="https://www.youtube.com/embed/1ESrxmN7J0U"
-                                                allowfullscreen></iframe>
-                                        </div>
-
-                                    </div>
-
-                                    <!--Footer-->
-                                    <div style="border: none"
-                                        class="modal-footer bg-dark  justify-content-center flex-column flex-md-row">
-
-                                        <div>
-                                            <a href="https://www.youtube.com/channel/UC1Bzw_84AwYJLUXpNkUpb9g"
-                                                type="button" class="btn-floating btn-sm btn-fb">
-                                                <i class="fab fa-youtube"></i>
-                                            </a>
-                                            <!--Twitter-->
-                                            <a href="https://www.instagram.com/vishalsathwaraa/" type="button"
-                                                class="btn-floating btn-sm btn-tw">
-                                                <i class="fab fa-instagram"></i>
-                                            </a>
-                                            <!--Google +-->
-                                            <a href="https://www.facebook.com/vishal.sathwara.56/" type="button"
-                                                class="btn-floating btn-sm btn-gplus">
-                                                <i class="fab fa-facebook"></i>
-                                            </a>
-
-
-                                        </div>
-                                        <button type="button" class="btn btn-white rounded-pill btn-md ml-4"
-                                            data-dismiss="modal">Close</button>
-
-
-                                    </div>
-
-                                </div>
-                                <!--/.Content-->
-
-                            </div>
-
-                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    </div>
-                </div>
-
-                <!--Modal: modalGarba-->
-                <div class="modal fade" id="modalgarba" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-lg" role="document">
-
-                        <!--Content-->
-                        <div class="modal-content">
-
-                            <!--Body-->
-                            <div class="modal-body mb-0 p-0">
-
-                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                    <iframe class="embed-responsive-item"
-                                        src="https://www.youtube.com/embed/c6UqVwZfNwM" allowfullscreen></iframe>
-                                </div>
-
-                            </div>
-
-                            <!--Footer-->
-                            <div style="border: none"
-                                class="modal-footer bg-dark  justify-content-center flex-column flex-md-row">
-
-                                <div>
-                                    <a href="https://www.youtube.com/channel/UC1Bzw_84AwYJLUXpNkUpb9g" type="button"
-                                        class="btn-floating btn-sm btn-fb">
-                                        <i class="fab fa-youtube"></i>
-                                    </a>
-                                    <!--Twitter-->
-                                    <a href="https://www.instagram.com/vishalsathwaraa/" type="button"
-                                        class="btn-floating btn-sm btn-tw">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                    <!--Google +-->
-                                    <a href="https://www.facebook.com/vishal.sathwara.56/" type="button"
-                                        class="btn-floating btn-sm btn-gplus">
-                                        <i class="fab fa-facebook"></i>
-                                    </a>
-
-
-                                </div>
-                                <button type="button" class="btn btn-white rounded-pill btn-md ml-4"
-                                    data-dismiss="modal">Close</button>
-
-
-                            </div>
-
-                        </div>
-                        <!--/.Content-->
-
                     </div>
 
                 </div>
-
+            </section>
         </div>
     </div>
 
-    </section>
 
 
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery-modal-video.min.js"></script>
+    <script>
+        $(".js-video-button").modalVideo({
+            youtube: {
+                controls: 1,
+                nocookie: true
+            }
+        });
+
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
     <script src="isojscss/main1.js"></script>
     <script src="isojscss/jquery.responsiveTabs.min.js"></script>
     <script src="js/plugins.min.js"></script>
     <script src="js/main.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.js">
-    </script>
+
 </body>
 
 </html>
